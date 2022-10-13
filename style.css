@@ -1,0 +1,107 @@
+body {
+    background-color: #fff2e6;
+}
+h1 {
+    color: #264d73;
+    font-family: verdana;
+    font-size: 200%;
+	border-style: solid;
+	background-color:  #ff9933;
+	text-align: center;
+	text-decoration: underline;
+}
+p  {
+    color: #800000;
+    font-family: courier;
+    font-size: 160%;
+	
+}
+div.upper {
+    border: 1px solid black;
+	padding: 30px;
+	margin: 50px;
+	text-transform: uppercase;
+	 text-align: right;
+	  font-weight: bold;
+}
+
+div.lower {
+    border: 1px solid red;
+	padding: 30px;
+	margin: 50px;
+	 text-align: left;	
+	text-transform: lowercase;
+	font-style: italic;
+}
+
+.shadow {
+	text-shadow: 2px 2px;
+}
+
+ol {
+  list-style-type: square;
+    background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: lower-alpha;
+    background: #3399ff;
+  padding: 20px;
+}
+
+dl {
+	background: #1f7a1f;
+}
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+   width: 50%;
+   border-collapse: collapse;
+}
+
+th {
+  height: 70px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+tr:hover {background-color: yellow;}
+
+/* unvisited link */
+a:link {
+  color: red;
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+   text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+  background-color: lightgreen;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
